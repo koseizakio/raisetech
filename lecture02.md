@@ -20,7 +20,7 @@
 例)コマンド例
 
 ```
-git clone https://github.com/Lemoli19/practice.git
+git clone https://github.com/koseizakio/raisetech.git
 ```
 相手の作成したリポジトリをダウンロードすることができた。
 
