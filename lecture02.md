@@ -3,7 +3,7 @@
 ## Markdownの練習
 
 画像のやり方
-![profile](./img/koseizakio.png)
+![profile](./img/kosei.jpeg)
 
 ## すきなもの
 - シャケ
