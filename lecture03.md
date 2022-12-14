@@ -1,5 +1,7 @@
 # 第３回 課題
 
+※Cloud9のEBSを10GBから40GBに変更
+
 ```
 # yumのアップデート
 sudo yum -y update
