@@ -17,7 +17,7 @@ sudo yum remove -y mysql-server
 sudo yum remove -y mariadb*
 ```
 
-###  "https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm"をダウンロード
+###  "https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm" をダウンロード
 
 ```
 wget https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm
@@ -52,5 +52,22 @@ sudo cat /var/log/mysqld.log | grep "temporary password" | awk '{print $13}'
 mysql -u root -p
 ```
 
+・ログイン確認
+
+```
+mysql -u root -p
+```
+
+・rvm（Ruby Version Manager）を利用すれば、さまざまなバージョンのRubyを指定してインストールできます
+```
+rvm get stable
+rvm install 3.1.2
+rvm --default use 3.1.2
+```
+
+・Rubyドキュメントをスキップする設定を.gemrcファイルに追加するコマンド
+```
+echo "gem: --no-document" >> ~/.gemrc
+```
 
 
