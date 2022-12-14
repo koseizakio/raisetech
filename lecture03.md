@@ -23,5 +23,23 @@ sudo yum install -y mysql-community-devel
 sudo yum install -y mysql-community-server
 ```
 
+・MySQLサーバーの起動＆確認
+
+```
+sudo service mysqld start && sudo service mysqld status
+```
+
+・初期パスワードの確認
+
+```
+sudo cat /var/log/mysqld.log | grep "temporary password" | awk '{print $13}'
+```
+
+・ログイン確認
+
+```
+mysql -u root -p
+```
+
 
 
