@@ -70,4 +70,14 @@ rvm --default use 3.1.2
 echo "gem: --no-document" >> ~/.gemrc
 ```
 
+バージョンを指定してRailsをインストールする
+```
+gem install rails -v 7.0.4
+```
+
+bundlerのバージョンを指定してインストールする
+```
+gem install bundler -v 2.3.14
+```
+
 
