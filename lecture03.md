@@ -3,4 +3,12 @@
 ```
 # yumのアップデート
 sudo yum -y update
-'''
+```
+
+```
+# mariadbがある場合を想定して先に削除
+sudo yum remove -y mysql-server
+sudo yum remove -y mariadb*
+```
+
+
