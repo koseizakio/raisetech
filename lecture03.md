@@ -103,9 +103,13 @@ Query OK, 0 rows affected (0.02 sec)
 
 mysql> exit;
 Bye
-koseiozaki:~/environment/raisetech-live8-sample-app (main) $ rails db:createRunning via Spring preloader in process 19704
+
+koseiozaki:~/environment/raisetech-live8-sample-app (main) $ rails db:create
+
+Running via Spring preloader in process 19704
 Created database 'raisetech_live8_sample_app_development'
 Created database 'raisetech_live8_sample_app_test'
+
 koseiozaki:~/environment/raisetech-live8-sample-app (main) $ rails db:migrate
 Running via Spring preloader in process 19860
 == 20210129231905 CreateFruits: migrating =====================================
