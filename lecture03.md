@@ -14,4 +14,14 @@ sudo yum remove -y mysql-server
 sudo yum remove -y mariadb*
 ```
 
+```
+# "https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm"をダウンロード
+wget https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm
+
+sudo yum localinstall -y mysql80-community-release-el7-7.noarch.rpm
+sudo yum install -y mysql-community-devel 
+sudo yum install -y mysql-community-server
+```
+
+
 
