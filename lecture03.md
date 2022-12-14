@@ -80,9 +80,9 @@ bundlerのバージョンを指定してインストールする
 gem install bundler -v 2.3.14
 ```
 
-![./img/lecture03_01.png]()
+![database.yum　の変更部分](./img/lecture03_01.png)
 
-### メモ
+### MYSQLの変更部分
 ```
 koseiozaki:~/environment/raisetech-live8-sample-app (main) $ mysql -u root -p                                   
 Enter password: 
