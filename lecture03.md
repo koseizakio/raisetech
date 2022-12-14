@@ -1,6 +1,7 @@
 # 第３回 課題
 
 ※Cloud9のEBSを10GBから40GBに変更
+※円滑に動かすため<strong>t3.small</strong>インスタンスで起動
 
 ```
 # yumのアップデート
