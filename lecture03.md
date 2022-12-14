@@ -80,6 +80,8 @@ bundlerのバージョンを指定してインストールする
 gem install bundler -v 2.3.14
 ```
 
+![./img/lecture03_01.png]()
+
 ### メモ
 ```
 koseiozaki:~/environment/raisetech-live8-sample-app (main) $ mysql -u root -p                                   
