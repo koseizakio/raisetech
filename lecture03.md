@@ -70,6 +70,13 @@ rvm --default use 3.1.2
 echo "gem: --no-document" >> ~/.gemrc
 ```
 
+サンプルAPPをclone
+```
+git clone https://github.com/yuta-ushijima/raisetech-live8-sample-app.git
+```
+
+
+
 バージョンを指定してRailsをインストールする
 ```
 gem install rails -v 7.0.4
