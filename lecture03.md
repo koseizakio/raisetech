@@ -130,6 +130,12 @@ Running via Spring preloader in process 19860
 
 ```
 
+###アプリのmigrationファイルに記載されたテーブル作成
+```
+rails db:create
+rails db:migrate
+```
+
 ### ./config/environments/development.rb の変更部分
 ![./config/environments/development.rb](./img/lecture03_02.png)
 
