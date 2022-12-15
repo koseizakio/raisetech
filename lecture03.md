@@ -95,6 +95,12 @@ gem install bundler -v 2.3.14
 ### ./config/database.yum の変更部分
 ![database.yum　の変更部分](./img/lecture03_01.png)
 
+・初期パスワードの確認
+
+```
+sudo cat /var/log/mysqld.log | grep "temporary password" | awk '{print $13}'
+```
+
 ### MYSQLの変更部分
 ```
 koseiozaki:~/environment/raisetech-live8-sample-app (main) $ mysql -u root -p                                   
