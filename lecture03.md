@@ -16,6 +16,13 @@ Puma version: 5.6.5 (ruby 3.1.2-p20) ("Birdie's Version")
 
 mysql  Ver 8.0.31 for Linux on x86_64 (MySQL Community Server - GPL)
 
+rvm 1.29.12 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+
+Rails 7.0.4
+
+aws-cli/1.19.112 Python/2.7.18 Linux/4.14.301-224.520.amzn2.x86_64 botocore/1.20.112
+
+
 ### DB サーバーを終了させた場合、引き続きアクセスできますか？
 
 MySQL接続エラーが表示され、アクセスできませんでした。再接続すると引き続き接続できます。
