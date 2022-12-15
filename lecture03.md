@@ -196,6 +196,15 @@ rails s -b 0.0.0.0
 ホーム
 ![ホーム](./img/lecture03_03_01.png)
 
+<strong>New Fruit</strong>をクリック
+
+![ホーム](./img/lecture03_03_02.png)
+
+画像を送付して画像名を記入して<strong>Save</strong>をクリック
+![](./img/lecture03_04_02.png)
+
+
+
 
 
 
