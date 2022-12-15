@@ -133,6 +133,8 @@ Running via Spring preloader in process 19860
 ###アプリのmigrationファイルに記載されたテーブル作成
 ```
 rails db:create
+```
+```
 rails db:migrate
 ```
 
