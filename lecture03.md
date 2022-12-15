@@ -203,6 +203,12 @@ rails s -b 0.0.0.0
 画像を送付して画像名を記入して<strong>Save</strong>をクリック
 ![](./img/lecture03_04_02.png)
 
+いちごの行が追加された
+![](./img/lecture03_05.png)
+
+いちご行の<strong>Destroy</strong>をクリックしていちご行が削除された。
+![](./img/lecture03_06_01.png)
+
 
 
 
