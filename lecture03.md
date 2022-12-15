@@ -191,6 +191,10 @@ rails assets:precompile
 rails s -b 0.0.0.0
 ```
 
+## アプリ画面
+
+ホーム
+![](./img/lecture_03_03_01.png)
 
 
 
