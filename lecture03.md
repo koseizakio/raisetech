@@ -131,6 +131,7 @@ Running via Spring preloader in process 19860
 ```
 
 ### ./config/environments/development.rb の変更部分
+![./config/environments/development.rb](./img/lecture03_02.png)
 
 
 
