@@ -172,11 +172,25 @@ yarnインストール
 ```
 npm install -g yarn
 ```
-うまくいかないwebpackerのinstall
+
+webpackerのinstall
 
 ```
 bundle exec rails webpacker:install
 ```
+
+scssの手動コンパイル実施　→　「application.css」作成される
+
+```
+rails assets:precompile
+```
+
+アプリ実行
+```
+rails s -b 0.0.0.0
+```
+
+
 
 
 
