@@ -2,6 +2,7 @@
 
 ※Cloud9のEBSを10GBから40GBに変更
 ※円滑に動かすため<strong>t3.small</strong>インスタンスで起動
+※Cloud9のEC2にセキュリティグループにインバウンドルールを設定した。SSH、HTTP、HTTPS、8080を開放
 
 ### yumのアップデート
 
