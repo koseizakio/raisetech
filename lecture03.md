@@ -14,6 +14,8 @@ Puma version: 5.6.5 (ruby 3.1.2-p20) ("Birdie's Version")
 
 ### サンプルアプリケーションで使った DB サーバー（DB エンジン）の名前と、今 Cloud9 で動作しているバージョンはいくつか確認してみましょう。
 
+mysql  Ver 8.0.31 for Linux on x86_64 (MySQL Community Server - GPL)
+
 ### DB サーバーを終了させた場合、引き続きアクセスできますか？
 
 MySQL接続エラーが表示され、アクセスできませんでした。再接続すると引き続き接続できます。
