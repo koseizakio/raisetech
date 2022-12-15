@@ -148,6 +148,12 @@ yarnインストール
 ```
 npm install -g yarn
 ```
+webpackerのinstall
+
+```
+bundle exec rails webpacker:install
+```
+
 
 
 
