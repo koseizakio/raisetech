@@ -85,6 +85,11 @@ bundlerのバージョンを指定してインストールする
 gem install bundler -v 2.3.14
 ```
 
+bundle インストール
+
+```
+bundle install
+```
 
 ### ./config/database.yum の変更部分
 ![database.yum　の変更部分](./img/lecture03_01.png)
