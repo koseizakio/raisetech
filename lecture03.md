@@ -130,7 +130,7 @@ Running via Spring preloader in process 19860
 
 ```
 
-### 変更部分
+### ./config/environments/development.rb の変更部分
 
 
 
