@@ -61,7 +61,11 @@ mysql -u root -p
 ・rvm（Ruby Version Manager）を利用すれば、さまざまなバージョンのRubyを指定してインストールできます
 ```
 rvm get stable
+```
+```
 rvm install 3.1.2
+```
+```
 rvm --default use 3.1.2
 ```
 
