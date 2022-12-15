@@ -134,8 +134,20 @@ Running via Spring preloader in process 19860
 ![./config/environments/development.rb](./img/lecture03_02.png)
 
 
+node.js インストール
 
+```
+nvm install 14
+```
 
+```
+nvm use 14
+```
+
+yarnインストール
+```
+npm install -g yarn
+```
 
 
 
