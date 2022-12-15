@@ -80,6 +80,8 @@ bundlerのバージョンを指定してインストールする
 gem install bundler -v 2.3.14
 ```
 
+
+### ./config/database.yum の変更部分
 ![database.yum　の変更部分](./img/lecture03_01.png)
 
 ### MYSQLの変更部分
@@ -127,5 +129,13 @@ Running via Spring preloader in process 19860
 == 20211003014450 CreateActiveStorageTables: migrated (0.1148s) ===============
 
 ```
+
+### 変更部分
+
+
+
+
+
+
 
 
