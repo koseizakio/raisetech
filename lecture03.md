@@ -172,7 +172,7 @@ yarnインストール
 ```
 npm install -g yarn
 ```
-webpackerのinstall
+うまくいかないwebpackerのinstall
 
 ```
 bundle exec rails webpacker:install
