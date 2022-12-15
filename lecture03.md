@@ -194,7 +194,7 @@ rails s -b 0.0.0.0
 ## アプリ画面
 
 ホーム
-![](./img/lecture_03_03_01.png)
+![ホーム](./img/lecture03_03_01.png)
 
 
 
