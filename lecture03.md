@@ -52,12 +52,6 @@ sudo cat /var/log/mysqld.log | grep "temporary password" | awk '{print $13}'
 mysql -u root -p
 ```
 
-・ログイン確認
-
-```
-mysql -u root -p
-```
-
 ・rvm（Ruby Version Manager）を利用すれば、さまざまなバージョンのRubyを指定してインストールできます
 ```
 rvm get stable
