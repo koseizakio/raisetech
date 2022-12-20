@@ -37,6 +37,8 @@ sudo yum install -y mysql-community-server
 
 sudo service mysqld start && sudo service mysqld status
 
+curl -L get.rvm.io | bash -s stable
+
 rvm get stable
 
 rvm install 3.1.2
