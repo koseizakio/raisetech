@@ -15,3 +15,49 @@
 ## ここまでが問題無く動作したら、その環境を構成図に書き起こしてください。
 
 
+
+
+
+### EC2に書き込むユーザーデータ
+
+```
+sudo yum -y update
+
+sudo yum remove -y mysql-server
+
+sudo yum remove -y mariadb*
+
+wget https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm
+
+sudo yum localinstall -y mysql80-community-release-el7-7.noarch.rpm
+
+sudo yum install -y mysql-community-devel 
+
+sudo yum install -y mysql-community-server
+
+sudo service mysqld start && sudo service mysqld status
+
+rvm get stable
+
+rvm install 3.1.2
+
+rvm --default use 3.1.2
+
+echo "gem: --no-document" >> ~/.gemrc
+
+git clone https://github.com/yuta-ushijima/raisetech-live8-sample-app.git
+
+gem install rails -v 7.0.4
+
+gem install bundler -v 2.3.14
+
+bundle install
+
+nvm install 14
+
+nvm use 14
+
+npm install -g yarn
+
+
+```
