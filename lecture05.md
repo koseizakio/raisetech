@@ -49,13 +49,15 @@ echo "gem: --no-document" >> ~/.gemrc
 
 sudo yum install git
 
+git clone https://github.com/koseizakio/raisetech-ruby-on-rails-koseizakio.git
+
+cd raisetech-live8-sample-app/
+
 gem install rails -v 7.0.4
 
 gem install bundler -v 2.3.14
 
 bundle install
-
-cd raisetech-live8-sample-app/
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
