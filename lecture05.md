@@ -49,5 +49,11 @@ command curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
 
 curl -L get.rvm.io | bash -s stable
 
+rvm get stable
+
+rvm install 3.1.2
+
+rvm --default use 3.1.2
+
 
 ```
