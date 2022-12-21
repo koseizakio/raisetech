@@ -21,6 +21,7 @@
 ### EC2のAmazon Linuxに動作する内容
 
 EC2： koseizakio-web-01
+
 RDS： koseizakio-db-01
 
 ```
