@@ -139,6 +139,19 @@ bunder のバージョン確認
 bundler -v
 ```
 
+バージョンを指定してRailsをインストールする
+
+```
+gem install rails -v 7.0.4
+```
+
+bundlerのバージョンを指定してインストールする
+
+```
+gem install bundler -v 2.3.14
+```
+
+
 
 
 
