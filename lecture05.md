@@ -59,6 +59,8 @@ cd raisetech-ruby-on-rails-koseizakio/
 ```
 
 Ruby インストール
+
+https://nomad.office-aship.info/amazon-linux2-rbenv-ruby-3/
 ```
 sudo yum install git rbenv
 ```
