@@ -157,6 +157,11 @@ nvmコマンド　のインストール
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
+nvmを有効にする
+```
+. ~/.nvm/nvm.sh
+```
+
 node.js インストール
 
 ```
