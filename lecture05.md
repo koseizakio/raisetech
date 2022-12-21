@@ -37,13 +37,6 @@ sudo yum install -y mysql-community-server
 
 sudo service mysqld start && sudo service mysqld status
 
-curl -L get.rvm.io | bash -s stable
-
-rvm get stable
-
-rvm install 3.1.2
-
-rvm --default use 3.1.2
 
 echo "gem: --no-document" >> ~/.gemrc
 
@@ -51,7 +44,7 @@ sudo yum install git
 
 git clone https://github.com/koseizakio/raisetech-ruby-on-rails-koseizakio.git
 
-cd raisetech-live8-sample-app/
+cd raisetech-ruby-on-rails-koseizakio/
 
 gem install rails -v 7.0.4
 
@@ -68,6 +61,14 @@ nvm install 14
 nvm use 14
 
 npm install -g yarn
+
+curl -L get.rvm.io | bash -s stable
+
+rvm get stable
+
+rvm install 3.1.2
+
+rvm --default use 3.1.2
 
 
 ```
