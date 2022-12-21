@@ -194,6 +194,9 @@ bundle インストール
 bundle install
 ```
 
+sass エラー
+
+![スクリーンショット 2022-12-22 0 46 35](https://user-images.githubusercontent.com/39989928/208945523-124b9358-9aa1-4a34-b818-35afa262aea4.png)
 
 
 
