@@ -22,38 +22,39 @@
 
 ```
 sudo yum -y update
-
+```
+```
 sudo yum remove -y mysql-server
-
+```
+```
 sudo yum remove -y mariadb*
-
+```
+```
 wget https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm
-
+```
+```
 sudo yum localinstall -y mysql80-community-release-el7-7.noarch.rpm
-
+```
+```
 sudo yum install -y mysql-community-devel 
-
+```
+```
 sudo yum install -y mysql-community-server
-
+```
+```
 sudo service mysqld start && sudo service mysqld status
-
+```
+```
 sudo yum install git
-
+```
+```
 git clone https://github.com/koseizakio/raisetech-ruby-on-rails-koseizakio.git
-
+```
+```
 cd raisetech-ruby-on-rails-koseizakio/
+```
 
-command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
-
-command curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
-
-curl -L get.rvm.io | bash -s stable
-
-rvm get stable
-
-rvm install 3.1.2
-
-rvm --default use 3.1.2
-
+Ruby インストール
+```
 
 ```
