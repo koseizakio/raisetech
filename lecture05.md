@@ -171,6 +171,12 @@ nvm install 14
 nvm use 14
 ```
 
+yarnインストール
+
+```
+npm install -g yarn
+```
+
 
 
 
