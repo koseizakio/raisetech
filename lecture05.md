@@ -45,9 +45,13 @@ sudo yum install -y mysql-community-devel
 ```
 sudo yum install -y mysql-community-server
 ```
+mysqlサーバー起動
+
 ```
 sudo service mysqld start && sudo service mysqld status
 ```
+gitをインストール
+
 ```
 sudo yum install git
 ```
@@ -61,6 +65,111 @@ cd raisetech-ruby-on-rails-koseizakio/
 Ruby インストール
 
 https://nomad.office-aship.info/amazon-linux2-rbenv-ruby-3/
+
+
+
+rbenv をダウンロード
 ```
-sudo yum install git rbenv
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 ```
+
+```
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+
+PATHの設定
+
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+```
+
+```
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```
+
+```
+source ~/.bash_profile
+```
+
+rbenv のバージョン確認
+
+```
+rbenv --version
+```
+
+インストールできる ruby のバージョン一覧
+
+```
+rbenv install --list
+```
+
+rubyのビルドに必要なライブラリのインストール
+
+```
+sudo yum install -y gcc openssl-devel zlib-devel
+```
+
+rubyのビルド
+
+```
+rbenv install 3.1.2
+```
+
+ビルドしたrubyを有効にする
+
+```
+rbenv global 3.1.2
+```
+
+bash_profile 再読み込み
+
+```
+source ~/.bash_profile
+```
+
+ruby のバージョン確認
+
+```
+ruby -v
+```
+
+bunder のバージョン確認
+
+```
+bundler -v
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
