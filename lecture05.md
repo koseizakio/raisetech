@@ -151,35 +151,20 @@ bundlerのバージョンを指定してインストールする
 gem install bundler -v 2.3.14
 ```
 
+nvmコマンド　のインストール
 
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
 
+node.js インストール
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+nvm install 14
+```
+```
+nvm use 14
+```
 
 
 
