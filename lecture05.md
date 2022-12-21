@@ -60,5 +60,5 @@ cd raisetech-ruby-on-rails-koseizakio/
 
 Ruby インストール
 ```
-
+sudo yum install git rbenv
 ```
