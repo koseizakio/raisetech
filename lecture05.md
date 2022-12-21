@@ -177,6 +177,28 @@ yarnインストール
 npm install -g yarn
 ```
 
+自分の作成したrails 
+
+```
+git clone https://github.com/koseizakio/raisetech/blob/main/lecture03.md
+```
+
+```
+cd raisetech-ruby-on-rails-koseizakio/
+```
+
+
+bundle インストール
+
+```
+bundle install
+```
+
+
+
+
+
+
 
 
 
