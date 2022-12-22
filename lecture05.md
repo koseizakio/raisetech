@@ -112,13 +112,13 @@ sudo yum install -y gcc openssl-devel zlib-devel
 rubyのビルド
 
 ```
-rbenv install 3.1.2
+rbenv install 2.6.3
 ```
 
 ビルドしたrubyを有効にする
 
 ```
-rbenv global 3.1.2
+rbenv global 2.6.3
 ```
 
 bash_profile 再読み込み
