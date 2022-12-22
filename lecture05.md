@@ -187,6 +187,10 @@ git clone https://github.com/koseizakio/raisetech-ruby-on-rails-koseizakio.git
 cd raisetech-ruby-on-rails-koseizakio/
 ```
 
+```
+gem install bundler sqlite3 rails
+```
+
 
 bundle インストール
 
