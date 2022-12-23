@@ -24,6 +24,10 @@ EC2： koseizakio-web-01
 
 RDS： koseizakio-db-01
 
+#### 正しい動作環境
+
+![スクリーンショット 2022-12-23 9 06 54](https://user-images.githubusercontent.com/39989928/209245827-68af7d11-bd8d-42e1-b4e7-7449d8b4fbc7.png)
+
 ```
 sudo yum -y update
 ```
