@@ -100,7 +100,7 @@ aws cloudformation create-stack --stack-name MultiAZSample12ELB --template-body 
 
 ### WordPressの表示結果
 
-![](./img/lecture10_09.png)
+![](./img/lecture10_10.png)
 
 ## 感想
 
